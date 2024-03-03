@@ -1,0 +1,56 @@
+.container{
+    width: 800px;
+    height: 600px;
+    margin: auto;
+    
+}
+.cart-table{
+    width: 100%;
+    box-sizing: border-box;
+    color: rgb(147, 183, 217);
+    margin-bottom: 30px;
+
+    border-radius : 7px;
+    /* border-style : hidden; */
+    /* box-shadow : 0 0 0 1px #666; */
+}
+td{
+    border-radius : 5px;
+    border-bottom: 1px solid rgb(147, 183, 217);
+}
+td p{
+    margin: 0px;
+    font-weight: 600;
+}
+td img{
+    width: 100px;
+    background-size: cover;
+}
+table{
+    border-collapse: collapse;
+    box-sizing : border-box;
+    background-color: rgb(255, 255, 255);
+}
+thead h4{
+    font-size: 18px;
+    margin: 10px;
+    padding: 0px;
+}
+.sony{
+    width: 80px;
+}
+.payment{
+    font-size: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 17px;
+    background-color: rgb(28, 64, 129);
+    float: right;
+}
+a {
+    color: rgb(28, 64, 129);
+    float: left;
+}

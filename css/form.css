@@ -1,0 +1,41 @@
+p {
+    font-size: 20px;
+    
+}
+h2 {
+    font-size: 40px;
+}
+.container{
+    width: 500px;
+    height: 650px;
+    background-color: white;
+    margin: auto;
+    margin-top: 50px;
+    padding-left: 40px;
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+.input{
+    width: 400px;
+    height: 40px;
+    font-size: 18px;
+    padding-left: 20px;
+}
+input[type=checkbox]{
+    accent-color: red;
+    float: left;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+input[type=submit]{
+    color: white;
+    background-color: orange;
+    border: none;
+    border-radius: 5px;
+    width: 150px;
+    font-size: 20px;
+    height: 40px;
+    float: right;
+    margin-right: 30px;
+    margin-top: 30px;
+}

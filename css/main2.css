@@ -1,0 +1,74 @@
+.main-background{
+    width: 100%;
+    height: 500px;
+    background-image: url(../img/shoes.jpg);
+    background-size: cover;
+    /* 꽉채워라 */
+    background-repeat: no-repeat;
+    /* 비율이상해도 반복하지마 */
+    background-position: center;
+    /* 가운데 우선으로 보여줘 */
+    /* background-attachment: fixed; */
+    /* 스크롤내려도 고정해 */
+    padding: 1px;
+    /* 박스붙으면 마진도 붙음방지 */
+}
+.main-title{
+    color: white;
+    font-size: 40px;
+    margin-top: 70px;
+    margin-left: 100px;
+    /* text-align: center; */
+}
+.main-text{
+    color: white;
+    margin-left: 100px;
+    /* text-align: center; */
+}
+.main-button{
+    background-color: white;
+    margin-left: 100px;
+    /* display: block; */
+    /* margin: auto; */
+    border-color: white;
+    color: black;
+    border: none;
+    width: 100px;
+}
+.main-button:hover{
+    background-color: white;
+    margin-left: 100px;
+    border-color: white;
+    color: grey;
+    border: none;
+}
+
+.description-box{
+    background-color: rgb(213, 213, 213);
+    width: 80%;
+    height: 170px;
+    margin: auto;
+    text-align: center;
+    padding-top: 15px;
+    position: relative;
+    top: -60px;
+}
+.navbar{
+    width: 100%;
+    height: 100px;
+    background-color: aqua;
+    display: flex;
+    position:fixed;
+}
+.navbar>div{
+    width: 100px;
+    margin: 0px;
+    background-color: chartreuse;
+    align-content: center;
+    text-align: center;
+    margin: 1px;
+}
+
+.navbar>div:nth-child(2){
+    flex-grow: 1;
+}
