@@ -1,0 +1,110 @@
+.profile{
+width: 200px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+.center{
+    text-align:center;
+}
+.header {
+    width: 100%;
+    height: 150px;
+    background-color: aquamarine;
+}
+.left-menu{
+    width: 20%;
+    height: 600px;
+    background-color: cornflowerblue;
+    /* float: left; */
+    display: inline-block;
+}
+.content{
+    width: 80%;
+    height: 600px;
+    background-color: coral;
+    /* float: left; */
+    display: inline-block;
+}
+.footer{
+    width: 100%;
+    height: 100px;
+    background-color: grey;
+    /* clear: both; */
+}
+
+.container{
+    margin: auto;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+}
+.box{
+    width: 400px;
+    height: 200px;
+    /* background-color: aquamarine; */
+    margin: 1px;
+    text-align: center;
+}
+.box>i{
+    
+    background-color: burlywood;
+    width: 100px;
+    height: 100px;
+    padding: 25px;
+    box-sizing: border-box;
+    border-radius: 100px
+    
+    
+}
+@media screen and (max-width : 1200px) {
+    .container{
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width : 768px) {
+    .container{
+        /* flex-direction: column; 그리고 플렉스-다이렉션 컬럼 쓰면 저스티파이 컨텐트가 풀림 왜풀리냐*/
+    }
+}
+.shop-container {
+    background-color: #eee;
+    padding: 20px;
+    display: flex;
+    position: relative;
+}
+
+.shop-item {
+    width: 25%;
+    margin: auto;
+    display: block;
+    position: relative;
+    overflow: hidden;
+}
+
+.shop-item>img{
+    display: block;
+    width: 100%;
+}
+
+.shop-overlay {
+    
+    position: absolute;
+    width: 100%;
+    height: 200%;
+    top: 0%;
+
+    transition: all 1s;
+}
+.shop-overlay:hover {
+    top: -38%;;
+}
+
+.price {
+    position: relative;
+    top: 50%;
+    font-size: 100px;
+    color: white;
+    background-color: rgba(0,0,0,0.5);
+    margin: 0px;
+}
