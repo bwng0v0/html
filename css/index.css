@@ -62,11 +62,6 @@ margin-right: auto;
         flex-wrap: wrap;
     }
 }
-@media screen and (max-width : 768px) {
-    .container{
-        /* flex-direction: column; 그리고 플렉스-다이렉션 컬럼 쓰면 저스티파이 컨텐트가 풀림 왜풀리냐*/
-    }
-}
 .shop-container {
     background-color: #eee;
     padding: 20px;
